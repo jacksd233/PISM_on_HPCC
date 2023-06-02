@@ -55,5 +55,15 @@ Refer to PISM manual (http://www.pism.io/docs/installation/prerequisites.html)
       export LD_LIBRARY_PATH="/global/pub/udunits/lib:$LD_LIBRARY_PATH"
       
     # Petsc
-    
+    Download F2CBLASLAPACK manually (http://ftp.mcs.anl.gov/pub/petsc/externalpackages/f2cblaslapack-3.4.2.q4.tar.gz)
+      ./config/configure.py \
+        --with-fc=0 \
+        --with-64-bit-indices=1 \
+        --known-64-bit-blas-indices \
+        --known-mpi-shared-libraries=1 \
+        --with-debugging=0 \
+        --with-valgrind=1 \
+        --with-batch=1  \
+        --with-shared-libraries=1 \
+        --with-blas-lapack-dir=/global/home/jiweiwen/source_files/petsc-3.17.4/arch-linux-c-opt/externalpackages/
 
