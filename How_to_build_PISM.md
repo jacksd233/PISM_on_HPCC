@@ -65,7 +65,7 @@ Refer to PISM manual (http://www.pism.io/docs/installation/prerequisites.html)
         --with-valgrind=1 \
         --with-batch=1  \
         --with-shared-libraries=1 \
-        ----download-fblaslapack=/global/home/jiweiwen/source_files/manual_download/f2cblaslapack-3.4.2.q4.tar.gz
+        --download-fblaslapack=/global/home/jiweiwen/source_files/manual_download/f2cblaslapack-3.4.2.q4.tar.gz
    <del> --with-blas-lapack-dir=/global/home/jiweiwen/source_files/petsc-3.17.4/arch-linux-c-opt/externalpackages/ </del>
   
    Debug: (1) Bad option: --with-blaslapack-dir=/global/home/jiweiwen/source_files/petsc-3.17.4/arch-linux-c-opt/externalpackages
