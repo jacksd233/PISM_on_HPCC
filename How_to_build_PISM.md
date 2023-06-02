@@ -34,7 +34,7 @@ Refer to PISM manual (http://www.pism.io/docs/installation/prerequisites.html)
       make clean
      Add fftw-mpi to PATH and LD_LIBRARY_PATH to .bashrc
     
-    # Install gsl-2.5
+    # Install gsl
       Download: https://www.gnu.org/software/gsl/
     # Configure and build
       ./configure --prefix=~/apps/gsl
@@ -49,4 +49,11 @@ Refer to PISM manual (http://www.pism.io/docs/installation/prerequisites.html)
       export LD_LIBRARY_PATH="/global/pub/netcdf/lib:$LD_LIBRARY_PATH"
       export PATH="/global/pub/netCDF-impi/bin:$PATH"
       export LD_LIBRARY_PATH="/global/pub/netCDF-impi/lib:$LD_LIBRARY_PATH"
+      
+    # udunits
+      export PATH="/global/pub/udunits/bin:$PATH"
+      export LD_LIBRARY_PATH="/global/pub/udunits/lib:$LD_LIBRARY_PATH"
+      
+    # Petsc
+    
 
