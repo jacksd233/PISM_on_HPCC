@@ -3,7 +3,7 @@
 
 ## ==================== Load and Install Prerequisities  ====================
 
-### Load Compilers
+### (1) Load Compilers
 
 Use intel compiler in .bashrc:
   
