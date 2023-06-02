@@ -57,6 +57,7 @@ Refer to PISM manual (http://www.pism.io/docs/installation/prerequisites.html)
     # Petsc
     Download Petsc with all docs (https://petsc.org/main/install/download/)
     file_path: (https://ftp.mcs.anl.gov/pub/petsc/release-snapshots/petsc-with-docs-3.19.2.tar.gz)
+    
     Download F2CBLASLAPACK manually (http://ftp.mcs.anl.gov/pub/petsc/externalpackages/f2cblaslapack-3.4.2.q4.tar.gz)
       ./config/configure.py \
         --with-fc=0 \
